@@ -1,0 +1,36 @@
+@media all and (min-width: 992px) {
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar .has-megamenu {
+    position: static !important;
+  }
+  .navbar .megamenu {
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+  }
+  .navbar .nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+.row .col-md-3 .dropdown-header {
+  padding-left: 3px;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row .col-md-3 ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 80%;
+}
+#navBarSearchForm input[type="text"] {
+  width: 430px !important;
+}
